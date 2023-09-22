@@ -145,8 +145,6 @@ img {
   row-gap: 2rem;
   padding-block: 8rem 4rem;
 }
-.home__data {
-}
 .home__subtitle,
 .home__title,
 .home__button {
@@ -190,10 +188,6 @@ img {
   inset: 0;
   margin: auto;
 }
-.home__swiper {
-}
-.home__article {
-}
 .home__shoe {
   width: 300px;
   margin-inline: auto;
@@ -213,12 +207,6 @@ img {
 }
 .home__social-link:hover {
   transform: translateY(-0.25rem);
-}
-.ri-facebook-circle-fill {
-}
-.ri-instagram-fill {
-}
-.ri-youtube-fill {
 }
 /* Swiper class */
 

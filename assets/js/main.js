@@ -37,12 +37,12 @@ let swiperShoes = new Swiper('.home__swiper', {
   effect: 'creative',
   creativeEffect: {
     prev: {
-      translate:[-100, 0 , -500],
-      opacity: 0 , 
+      translate: [-100, 0, -500],
+      opacity: 0,
     },
     next: {
-      translate:[100, 0 , -500],
-      opacity: 0 , 
+      translate: [100, 0, -500],
+      opacity: 0,
     },
   },
 
@@ -53,3 +53,12 @@ let swiperShoes = new Swiper('.home__swiper', {
 });
 
 /*=============== SHADOW HEADER ===============*/
+/*=== CHANGE BACKGROUND HEADER ====*/
+const shadowHeader = () => {
+  const header = document.getElementById('header');
+  // When the scroll is greater than 50 viwport height, add the scroll-header class to the header
+  this.scrollY >= 50
+    ? header.classList.add('shadow-header')
+    : header.classList.reove('shadow-header');
+};
+window.addEventListener('scroll', shadowHeader);
